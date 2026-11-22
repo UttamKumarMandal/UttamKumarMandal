@@ -20,39 +20,21 @@ I am currently completing an intensive program in **Software Development with AI
 
 ## 🛠️ Tech Stack
 
-### **Languages & Frontend**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
+Languages & Frontend
 
-### **Backend & Database**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Drizzle](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
+<p> <img src="https://skillicons.dev/icons?i=py,ts,js,nextjs,react,tailwind" alt="Languages and Frontend" /> </p>
 
-### **AI Engineering**
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-pgvector-8A2BE2?style=for-the-badge)
-![Agents](https://img.shields.io/badge/Multi--Agent-Systems-FF6F00?style=for-the-badge)
+Backend & Database
 
-### **DevOps & Tools**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+<p> <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,redis" alt="Backend and Database" /> <img src="https://cdn.simpleicons.org/drizzle/C5F74F" height="48" alt="Drizzle ORM" title="Drizzle ORM" /> <img src="https://cdn.simpleicons.org/zod/3E67B1" height="48" alt="Zod" title="Zod" /> </p>
 
----
+AI Engineering
+
+<p> <img src="https://cdn.simpleicons.org/langchain/1C3C3C" height="48" alt="LangChain / LangGraph" title="LangChain / LangGraph" /> </p>
+
+DevOps & Tools
+
+<p> <img src="https://skillicons.dev/icons?i=docker,nginx,githubactions,aws,vercel,git,postman,vscode" alt="DevOps and Tools" /> </p>
 
 ## 🚀 Featured Projects
 
