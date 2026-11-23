@@ -18,6 +18,16 @@ I am currently completing an intensive program in **Software Development with AI
 
 ---
 
+## 🧭 Engineering Philosophy
+I treat software as a long-term liability before it is an asset. Every decision — from the shape of a type to the layout of a service boundary — is made with maintenance, observability, and team velocity in mind.
+
+- **Type safety as a contract.** TypeScript end-to-end, Zod at the boundaries, Drizzle for typed database access. The compiler should catch what code review might miss.
+- **Architecture over framework.** Frameworks come and go; clean service boundaries, explicit data flow, and well-named abstractions outlive them.
+- **Production-first.** A feature isn't done until it is deployed, monitored, and recoverable. Docker, CI/CD, structured logging, and graceful degradation are first-class concerns.
+- **Boring technology where it matters.** PostgreSQL, Express, and Next.js for the load-bearing paths; novelty reserved for where it earns its complexity.
+- **AI as an engineering discipline.** LLM features are evaluated, costed, and bounded — not demoed and forgotten. Guardrails, streaming, and observability ship with the first prompt.
+
+---
 ## 🛠️ Tech Stack
 
 Languages & Frontend
@@ -37,19 +47,82 @@ DevOps & Tools
 <p> <img src="https://skillicons.dev/icons?i=docker,nginx,githubactions,aws,vercel,git,postman,vscode" alt="DevOps and Tools" /> </p>
 
 ## 🚀 Featured Projects
+A selection of production-grade systems. Each repository is documented with architecture diagrams, deployment guides, and live demos.
 
-| Project | Description | Tech |
-| :--- | :--- | :--- |
-| [**SaaS Backend**](https://github.com/<username>/saas-backend) | Multi-tenant API with JWT auth, RBAC, workspace isolation, file upload, analytics | Express, Drizzle, PostgreSQL |
-| [**SaaS Frontend**](https://github.com/<username>/saas-frontend) | Dashboard with analytics and role-based UI ([Live](https://your-app.vercel.app)) | Next.js, Tailwind |
-| [**AI Knowledge Assistant**](https://github.com/<username>/ai-knowledge-assistant) | PDF RAG + LangGraph agent with streaming chat | LangChain, pgvector |
-| [**Dockerized Full-Stack App**](https://github.com/<username>/dockerized-fullstack-app) | Docker Compose, NGINX reverse proxy, GitHub Actions CI/CD | Docker, NGINX, AWS |
-| [**Expense Tracker API**](https://github.com/<username>/expense-tracker-api) | Layered REST API with Zod validation | Express, PostgreSQL |
-| [**Multi-Tenant AI SaaS (Capstone)**](https://github.com/<username>/capstone) | Full-stack flagship combining everything above | Next.js, Express, LangGraph |
-
-> Replace `<username>` and links as each project is completed. Pin your best 6 repositories.
+| Project | Description | Stack | Repo | Live |
+| :--- | :--- | :--- | :--- | :--- |
+| 🤖 **Multi-Tenant AI SaaS** | Production SaaS platform with workspaces, RBAC, RAG over user documents, and streaming AI chat. | Next.js · Drizzle · pgvector · LangChain · Docker | [<repo>](https://github.com/&lt;your-github-username&gt;/ai-saas-app) | [demo](https://&lt;your-portfolio&gt;) |
+| 📄 **RAG PDF Assistant** | Retrieval-augmented chat over uploaded PDFs, with citation, chunking strategy, and cost evaluation. | LangChain · pgvector · Node.js | [<repo>](https://github.com/&lt;your-github-username&gt;/rag-pdf-assistant) | [demo](https://&lt;your-portfolio&gt;) |
+| 🧠 **LangGraph Agent** | Tool-calling agent with short/long-term memory and human-in-the-loop checkpoints. | LangGraph · TypeScript | [<repo>](https://github.com/&lt;your-github-username&gt;/langgraph-agent) | — |
+| 🏢 **SaaS Backend API** | Layered, modular REST API with multi-tenancy, JWT auth, Zod validation, search & pagination. | Express · Drizzle · PostgreSQL · JWT · Zod | [<repo>](https://github.com/&lt;your-github-username&gt;/saas-backend) | — |
+| 📊 **SaaS Dashboard UI** | Admin dashboard with auth, role-based UI, TanStack Table, Recharts analytics, dark mode. | Next.js · Tailwind · shadcn/ui · TanStack | [<repo>](https://github.com/&lt;your-github-username&gt;/saas-frontend) | [demo](https://&lt;your-portfolio&gt;) |
+| 💰 **Expense Tracker API** | Layered REST API with CRUD, validation, filtering, pagination, and centralized error handling. | Express · PostgreSQL · Zod | [<repo>](https://github.com/&lt;your-github-username&gt;/express-pg-expense-tracker) | — |
+| 🗄️ **Database Design Case Study** | ER modeling, normalization 1NF→3NF+, indexing, and `EXPLAIN ANALYZE` walkthroughs. | PostgreSQL · dbdiagram.io | [<repo>](https://github.com/&lt;your-github-username&gt;/db-design-case-study) | — |
+| 🔧 **Raw Node.js Notes API** | HTTP server with no framework — `http`, `fs`, `path` only; layered file-based storage. | Node.js | [<repo>](https://github.com/&lt;your-github-username&gt;/raw-node-notes-api) | — |
 
 ---
+
+## 📐 How I Work
+- **Specification before code.** I write the contract — types, endpoints, error cases — before the implementation. Ambiguity is resolved in Markdown, not in the codebase.
+- **Small, reviewable changes.** Conventional Commits, short-lived feature branches, and PRs that describe *why* a change was made, not just *what* changed.
+- **Tests at the seams.** Unit tests for pure logic, integration tests for API boundaries, and `EXPLAIN ANALYZE` for anything that touches the database.
+- **Documentation as a deliverable.** Every shipped repo includes an architecture diagram, run instructions, and a deployment guide — written for the engineer who inherits it next.
+- **Measured adoption of AI tooling.** Claude Code, OpenCode, `AGENTS.md`/`CLAUDE.md` context files, and specification-driven development as part of the daily workflow — used to accelerate, never to replace judgment.
+
+---
+
+## 🎯 Areas of Expertise
+| Domain | What I deliver |
+| :--- | :--- |
+| **Multi-Tenant SaaS Architecture** | Workspace isolation, RBAC, tenant-scoped data access, subscription-aware feature gating. |
+| **Type-Safe Backend Engineering** | Layered Express/NestJS APIs, Zod validation at boundaries, centralized error handling, structured logging, OpenAPI-ready contracts. |
+| **Polyglot Scripting & Automation** | Python for data tooling, scripting, glue code, and LLM/AI prototyping alongside the TypeScript production stack. |
+| **Database Design & Performance** | Normalized schemas to 3NF+, ER modeling, indexing strategy, `EXPLAIN ANALYZE`-driven optimization, query tuning on PostgreSQL. |
+| **Production AI Systems** | RAG pipelines over pgvector, streaming LLM responses, LangGraph agents with tool-calling and guardrails, cost & latency evaluation. |
+| **DevOps & Reliability** | Dockerized multi-container apps, GitHub Actions CI/CD, Nginx reverse proxy, VPS & AWS deployment, secrets management. |
+| **Frontend Architecture** | Next.js App Router, server components, TanStack Query/Table, design tokens, accessibility, performance budgets. |
+
+---
+
+## 💻 Profile in Code
+```typescript
+type Engineer = {
+  name: string;
+  role: "Senior Full-Stack Software Engineer";
+  location: "Dhaka, Bangladesh";
+  languages: readonly ("TypeScript" | "JavaScript" | "Python" | "SQL")[];
+  focus: readonly string[];
+  principles: readonly string[];
+  availability: "Open to senior full-stack & AI engineering roles";
+};
+
+const engineer: Engineer = {
+  name: "<Uttam Kumar Mandal>",
+  role: "Senior Full-Stack Software Engineer",
+  location: "Dhaka, Bangladesh",
+  languages: ["TypeScript", "JavaScript", "Python", "SQL"],
+  focus: [
+    "Multi-tenant SaaS architecture",
+    "Type-safe backend systems",
+    "RAG & agentic LLM applications",
+    "Production deployment & reliability",
+    "Python tooling & AI prototyping",
+  ],
+  principles: [
+    "Type safety as a contract",
+    "Architecture over framework",
+    "Production-first, always",
+    "Boring tech on load-bearing paths",
+    "AI as an engineering discipline",
+  ],
+  availability: "Open to senior full-stack & AI engineering roles",
+};
+
+export default engineer;
+```
+
+---
+
 
 ## 🌐 Connect With Me
 
