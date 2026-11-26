@@ -1,5 +1,5 @@
 # Hi 👋, I'm Uttam Kumar Mandal
-### 🔭 Full-Stack & AI Engineer in the making | Building multi-tenant SaaS & RAG apps
+### 🔭 Full-Stack AI Engineer | I build & deploy AI agents, RAG & automation systems for businesses | TypeScript, Python, Next.js, NestJS, LangGraph, Docker
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2F81F7&width=600&lines=Full-Stack+Developer;AI+Engineering+%7C+RAG+%26+Agents;TypeScript+%E2%80%A2+Next.js+%E2%80%A2+PostgreSQL)](https://git.io/typing-svg)
 
